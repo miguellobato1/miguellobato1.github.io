@@ -1,0 +1,72 @@
+body{
+    background-image: url(/img/deporte.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+   
+    
+}
+
+.menú{
+    color: white;
+    display: inline;
+    padding-left: 155px;
+    padding-right: 145px;
+    
+
+}
+aside{
+    float: left;
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 150px;
+    padding: 10px;
+    padding-top: 4px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.imagen1{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+.sectionL{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+.section1{
+    height:500px ;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    
+}
+.imagenp{
+    margin-top: 100px;
+    
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fomulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Proyecto</h1>
+        </header>
+        <nav>
+            <div class="menú"><a href="/index.html">Página principal</a></div>
+            <div class="menú"><a href="/CV/cv.html">CV</a></div>
+            <div class="menú"><a href="Formulario.html">Formulario</a></div>
+            <div class="menú"><a href="/sobremi/sbremi.html">Sobre mi</a></div>
+        </nav>
+        <aside>
+            <h2>Información personal</h2>
+            <img src="PDF Scanner 15-09-22 11.36.37_page-0001.jpg" class="imagen1">
+            <ul>
+                <li>Miguel Ángel Lobato del Campo</li>
+                <li>18 años</li>
+                <li>Fecha de nacimento 28/3/2005</li>
+                <li>Madrid</li>
+            </ul>
+
+        </aside>
+        <section>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>Nombre: <input type="text" name="nombre" size="30"></p>
+                <p>Edad: <input type="number" name="edad"></p>
+                <p>Fecha de nacimento <input type="date" name="fecha"></p>
+               <p>DNI / NIE:
+                    <select name="dni/nie">
+                        <option>DNI</option>
+                        <option>NIE</option>
+                    </select>
+               </p>
+                <p>Telefono: <input type="tel" name="Telefono"></p>
+                <p>Correo: <input type="email" name="Correo" size="40"></p>
+                <p>URL: <input type="url" name="dirección" size="40"></p>
+                <p>Color favorito: <input type="color" name="colorElegido"></p>
+              </fieldset>
+              
+              <fieldset>
+                <legend>Datos academicos</legend>
+                <p>Idiomas:
+                  <input type="checkbox" name="In" > Ingles
+                  <input type="checkbox" name="Fr" > Frances
+                  <input type="checkbox" name="Al" > Aleman
+                  <input type="checkbox" name="Po" > Portuges
+                </p>
+                Indique su nivel de Ingles (A1, A2, B1, B2, C1, C2):
+                <input type="range" name="rango" min="1" max="6" list="lista-rango">
+                <datalist id="lista-rango">
+                    <option value="1" label="A1"></option>
+                    <option value="2" label="A2"></option>
+                    <option value="3" label="B1"></option>
+                    <option value="4" label="B2"></option>
+                    <option value="5" label="B2"></option>
+                    <option value="6" label="C2"></option>       
+                </datalist>
+                <p>Estuios:
+                    <input type="checkbox" name="ESO" > ESO
+                    <input type="checkbox" name="Bachillerato" > Bachillerato
+                    <input type="checkbox" name="Grado Medio" > Grado Medio
+                    <input type="checkbox" name="Grado Superior" > Grado Superior
+                    <input type="checkbox" name="Titulo Universitario" > Titulo Universitario
+                    
+                </p>
+                <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+
+              </fieldset>
+              
+        </section>
+        <footer>
+            Página desarrolada por <a href="https://github.com/miguellobato1">Miguel Ángel Lobato del Campo</a>
+        </footer>
+        
+    </div>
+</body>
+</html>

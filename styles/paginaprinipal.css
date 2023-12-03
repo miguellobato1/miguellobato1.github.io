@@ -1,7 +1,97 @@
-*{
-    background-color: aqua;
+body{
+    background-image: url(/img/deporte.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.container{
-    background-color: antiquewhite;
+header{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+   
+    
+}
+
+.menú{
+    color: white;
+    display: inline;
+    padding-left: 155px;
+    padding-right: 145px;
+    
+
+}
+aside{
+    float: left;
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 150px;
+    padding: 10px;
+    padding-top: 4px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.imagen1{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+.section1{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+.section2{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+.section3{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.caracteristicas{
+    column-count: 3;
+    column-gap: 0cm;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.cosas{
+    column-count: 2;
+    column-gap: 0cm;
+    margin-left: 30px;
+}
+
+.deporte{
+    width: 400px;
+    height: 200px;
+    
+}
+
+
+.amigos{
+    width: 400px;
+    height: 200px;
+}
+.youtube{
+    width: 400px;
+    height: 200px;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

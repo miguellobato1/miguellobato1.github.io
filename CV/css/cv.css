@@ -1,0 +1,73 @@
+body{
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+*{
+    background-image: url(img/img.jpg);
+}
+
+header{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+   
+    
+}
+
+.menú{
+    color: white;
+    display: inline;
+    padding-left: 155px;
+    padding-right: 145px;
+    
+
+}
+.a{
+    text-decoration: none;
+}
+aside{
+    float: left;
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 150px;
+    padding: 10px;
+    padding-top: 4px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.imagen1{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+.imagen2{
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+}
+.curriculum{
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+table{
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
