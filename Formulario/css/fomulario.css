@@ -5,9 +5,6 @@ body{
     
 }
 
-*{
-    background-image: url(img/img.jpg);
-}
 
 header{
     text-align: center;
@@ -29,9 +26,7 @@ nav{
     
 
 }
-.a{
-    text-decoration: none;
-}
+
 aside{
     float: left;
     background-color: black;
